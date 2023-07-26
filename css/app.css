@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sanserif;
+}
+
+.dark-card {
+  background: #091833;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 28px 36px;
+}
+.dark-card header {
+  display: flex;
+}
+.dark-card header ul {
+  display: flex;
+}
