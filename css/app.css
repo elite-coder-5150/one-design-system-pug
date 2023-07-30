@@ -20,3 +20,8 @@ body {
 .dark-card header ul {
   display: flex;
 }
+.dark-card header a {
+  font-size: px-to-rem(14);
+  color: #cfd6e5;
+  text-transform: capitalize;
+}
