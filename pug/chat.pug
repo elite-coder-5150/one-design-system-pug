@@ -1,0 +1,61 @@
+doctype html
+html
+    head
+        meta(charset='utf-8')
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        meta(name="description" content="This is a sample web page.")
+        meta(name="keywords" content="sample, web page, Pug")
+        meta(name="author" content="darrell parkhouse")
+        title Inbox | One Design System
+        link(rel="icon" href="../img/logo.svg" type="image/svg+xml")
+        link(rel="stylesheet" href="../css/app.css")
+
+        body
+            .chat-card
+                header.card-header
+                    .close
+                        .icon
+                            .close-icon
+                    .profile
+                        .icon
+                            .add-user-icon
+                .card-body
+                    .current-time 9:41 am
+                    .outgoing-message
+                        .message
+                            .text
+                                p Hi, I put together some photos from...
+                            .meta
+                                .time 9:41
+                            .profile
+                                img(src="../img/chat/profile-01.png")
+
+                     .outgoing-message
+                        .message
+                            .text
+                               I've tried the app.
+                            .meta
+                                .time 9:41
+                            .profile
+                                img(src="../img/chat/profile-01.png")
+
+                    .incoming-message
+                        .message
+                            .text
+                                really?
+                    .incoming-message
+                        .message
+                            .text Typing...
+                            .meta
+                                .time 9:41
+                            .profile
+                                img(src="../img/chat/profile-01.png")
+                
+                footer.card-footer
+                    form.chat-form(action="#", name="chat" method="POST")
+                        .input-group
+                            .profile
+                                img(src="../img/chat/profile-01.png")
+                            .input-container
+                                input(type="search", name="search", placeholder="Type your message"))
+                    
