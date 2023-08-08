@@ -1,0 +1,22 @@
+
+
+.dark-card {
+    background: $clr-base-dark;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 28px 36px;
+
+    header {
+        display: flex;
+
+        ul {
+            display: flex;
+        }
+
+        a {
+            font-size: px-to-rem(14);
+            color: $clr-menu-text;
+            text-transform: capitalize;
+        }
+    }
+}
